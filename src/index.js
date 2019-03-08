@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.js'
-import Scroll from './Scroll.js'
-import './Card.css';
+import App from './Containers/App.js'
 import './index.css';
 import 'tachyons';
 //import {cat} from './cat.js'

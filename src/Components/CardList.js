@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Card from './Card.js'
-import './Card.css';
 
 const CardList = ({cat}) => {
 
