@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CardList from './CardList.js'
+import App from './App.js'
+import Scroll from './Scroll.js'
 import './Card.css';
 import './index.css';
 import 'tachyons';
-import {cat} from './cat.js'
+//import {cat} from './cat.js'
 import * as serviceWorker from './serviceWorker';
 
 
-ReactDOM.render( <CardList cat = {cat}/>, document.getElementById('root'));
+ReactDOM.render( <App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
